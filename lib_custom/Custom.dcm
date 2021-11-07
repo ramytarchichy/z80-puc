@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AS6C1008-55PCN
+D Parallel SRAM
+K SRAM
+F https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008feb2007.pdf
+$ENDCMP
+#
+$CMP AT28C64B
+D Parallel ROM
+K ROM
+F https://ww1.microchip.com/downloads/en/DeviceDoc/AT28C64B-64K-(8Kx8)-Industrial-Parallel-EEPROM-with-Page-Write-and-Software-Data-Protection-20006432A.pdf
+$ENDCMP
+#
+$CMP DS1233-5+
+D Power on reset
+K Reset
+F https://datasheets.maximintegrated.com/en/ds/DS1233.pdf
+$ENDCMP
+#
+$CMP Z84C3010PEG
+D Z80 CTC
+F https://datasheet.octopart.com/Z84C3010PEG-Zilog-datasheet-587048.pdf
+$ENDCMP
+#
+#End Doc Library
