@@ -8,7 +8,7 @@ It's designed with all through-hole components for easy soldering and hacking,
 as well as increased retro-cool factor. Despite its retro feel, all of its parts
 are still readily available and in production as of writing this.
 
-The goal is to have a Z80 "module" than can be quickly modified and then added
+The goal is to have a Z80 "module" that can be quickly modified and then added
 to a project instead of having to design and order a custom PCB every time.
 Kind of like using a Raspberry Pi instead of designing your own ARM-based
 computer for every project.
@@ -62,6 +62,12 @@ I just included the CTC for timer interrupts. I've never needed any of the CTC's
 other functionality, so I decided to save some space and not include a pin
 header for that. If you really need it, you can just solder a few wires directly
 to the board, or add an external CTC chip.
+
+## Part Interchangeability
+
+- 74HC137 <=> 74HC138
+- AS6C1008 <=> AS6C4008
+- AT28C64 <=> AT28C256
 
 # License
 
